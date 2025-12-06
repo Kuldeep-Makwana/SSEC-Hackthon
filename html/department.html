@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shantilal Shah Engineering College</title>
+    <link rel="stylesheet" href="../css/department.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+<script src="https://kit.fontawesome.com/4ad3ae0321.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="department.html"><img src="../img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="department.html">DEPARTMENT</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Department that we have.</h1>
+            <p>We have many department which offers many different cources.</p>
+        </div>    
+    </section>
+
+<!-----------Department----------->
+    
+<section class="department">
+
+    <div class="row">
+        <div class="department-col-1">
+            <a href="ec.html"><h3>EC</h3></a>
+            <p>All EC subjects teches in ground flor of department. It has best facility labs and classrooms.</p>
+        </div>
+
+        <div class="department-col-2">
+            <a href="civil.html"><h3>Civil </h3></a>
+            <p>All subjects which arrives from civil department that teaches here. It has all labs and  machines that student need with degitalization. It has cold and filtered water supply.</p>
+        </div>
+
+        <div class="department-col-3">
+            <a href="it.html"><h3>IT</h3></a>
+            <p>First flor has established as IT department. It has new and degital computer sets in ther lab. It department is most demanded department.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="department-col-4">
+            <a href="electrical.html"><h3>Electrical</h3></a>
+            <p>All what students needed  for developing them selves in electronics world that here. Best teachers, Best equipment etc.</p>
+        </div>
+
+        <div class="department-col-2">
+            <a href="general.html"><h3>General</h3></a>
+            <p>This department have all faculties from general workment. Like NSS; Maths faculties, English, IC etc...</p>
+        </div>
+
+        <div class="department-col-3">
+            <a href="mechanical.html"><h3>Mechanical</h3></a>
+            <p>All boiler & engines puted here. It includes many of workshops and machineries.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="department-col-4">
+            <h3>Workshop</h3>
+            <p>All the workshops which includes Engineering Graphic Design, Matel peace Workshop & other some workshops which is don't belong from specific department.</p>
+        </div>
+
+        <div class="department-col-2">
+            <h3>Library</h3>
+            <p>We have a separeted Library for our student. It has loats of collection of readable books.</p>
+        </div>
+
+        <div class="department-col-3">
+            <h3>Admin Block</h3>
+            <p>All the seminar and work of students doing here. It has some more spaces then other rooms so we use that as a prectice room. fees or scholership regarding works doing here.</p>
+        </div>
+    </div>
+</section>
+
+<!-----------Footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are from SSECG Admin department. Thank you for visiting our site. If you want to know more about anything be connected.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<!-----------Java Script For Toggle Menu----------->
+<script>
+
+    var navLinks=document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+</body>
+</html>

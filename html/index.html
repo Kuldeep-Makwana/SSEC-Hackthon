@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shantilal Shah Engineering College</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+<script src="https://kit.fontawesome.com/4ad3ae0321.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="../img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="department.html">DEPARTMENT</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>Welcome to Shantilal Shah Engineering College</h1>
+        <p>     This is a state government institute which is estblished in 1983. This collage has second largest campus field in gujrat. This collage is affiliate with Gujrat Technical University(GTU).</p>
+        <a href="About.html" class="hero-btn">Visit us to know more</a>
+    </div>    
+
+    </section>
+
+<!-----Testimonials------->
+
+<section class="testimonials">
+    <h1>What our students says.</h1>
+    <p>Here are some rivews of our student.</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="../img/U2.jpg" >
+            <div>
+                <p>
+                    This collage was awasome. I am very happy to be a student of this collage. Best collage ever.
+                </p>
+                <h3>Unknown User</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+
+        <div class="testimonial-col">
+            <img src="../img/U1.jpg" >
+            <div>
+                <p>
+                    This collage was awasome. I am very happy to be a student of this collage. Best collage ever.
+                </p>
+                <h3>Unknown User</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-----------Call to action----------->
+
+<section class="cta">
+    <h1>
+        If any quiry regarding our collage or <br> any degree cources you can direct contact us.
+    </h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!-----------Footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are from SSECG Admin department. Thank you for visiting our site. If you want to know more about anything be connected.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<!-----------Java Script For Toggle Menu----------->
+<script>
+
+    var navLinks=document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</body>
+</html>

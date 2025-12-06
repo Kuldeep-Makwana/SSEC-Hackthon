@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Event.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+<script src="https://kit.fontawesome.com/4ad3ae0321.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="department.html"><img src="../img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="department.html">DEPARTMENT</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Event Details</h1>
+        </div>    
+    </section>
+    <div class="star">
+        <p>Currently no event is organnized by admin or techno-club..we will update about future events.</p>
+    </div>
+    <div class="summer">
+        <div class="winter">
+           <h3> Photo <span>Gallery</span></h3>
+        </div>
+        <div class="box">
+            <div class="dream">
+                <img src="../img/yuth.jpg" >
+                <img src="../img/yuth2.jpeg" >
+                <img src="../img/yuth3.jpg" >
+                <img src="../img/yuth4.jpg" >
+                <img src="../img/yuth5.jpg" >
+
+            </div>
+            <div class="dream">
+                <img src="../img/yuth6.jpg" >
+                <img src="../img/yuth7.jpg" >
+                <img src="../img/yuth8.jpg" >
+                <img src="../img/yuth9.jpg" >
+            </div>
+
+        </div>
+        <div class="btn">
+            <a href="#">More</a>
+        </div>
+    </div>
+<!-----------Footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are from SSECG Admin department. Thank you for visiting our site. If you want to know more about anything be connected.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<!-----------Java Script For Toggle Menu----------->
+<script>
+
+    var navLinks=document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+</body>
+</html>

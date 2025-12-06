@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shantilal Shah Engineering College</title>
+    <link rel="stylesheet" href="../css/department.css">
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+<script src="https://kit.fontawesome.com/4ad3ae0321.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="department.html"><img src="../img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="department.html">DEPARTMENT</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Contact Us</h1>
+            <p>For inquery or suggestion contact us.</p>
+        </div>    
+    </section>
+
+<!----------------------------------------->
+<div class="form">
+    <div class=" title-div">
+        <h1>Inquiry/Suggetion Form</h1>
+       
+        <p class="required">Required</p>
+
+    </div>
+    <div class="name-div">
+        <div class="name">What is your name?<span class="required"></span></div>
+        <div class="input-div"><input type="input" name="answer" placeholder="your answer"></div>
+    </div>
+   
+    <div class="email-div">
+        <div class="name">What is your email.<span class="required"></span></div>
+        <div class="input-div"><input type="input" name="answer" placeholder="your answer"></div>
+    </div>
+    <div class="mobile-div">
+        <div class="name">What is your mobiloe no.</div>
+        <div class="input-div"><input type="input" name="answer" placeholder="your answer"></div>
+    </div>
+    <div class="review-div">
+        <div class="name">Enter you suggetion or review here.</div>
+        <div class="input-div"><input type="input" name="answer" placeholder="your answer"></div>
+    </div>
+    <div class="inquiry-div">
+        <div class="name">If you have any doubt just ask here.</div>
+        <div class="input-div"><input type="input" name="answer" placeholder="your answer"></div>
+    </div>
+    <div>
+        <a href=""><input class="btn" type="submit" name="Submit">
+        </a>
+    </div>
+</div>
+
+
+
+<!-----------Footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are from SSECG Admin department. Thank you for visiting our site. If you want to know more about anything be connected.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<!-----------Java Script For Toggle Menu----------->
+<script>
+
+    var navLinks=document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+</body>
+</html>
